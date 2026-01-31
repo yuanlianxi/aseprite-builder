@@ -52,7 +52,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-          os: [ macOS-14 ]
+          os: [ macos-15-intel ]
         fail-fast: false
     steps:
       - name: Install Dependencies
